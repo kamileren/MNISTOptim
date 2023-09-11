@@ -112,7 +112,7 @@ Utilizing our optimal model, which was trained with SGD complemented by batch no
 )
 
 
-As demonstrated above, the model adeptly discerned even the most atypical numerical representations in the test set.
+As demonstrated above, the model adeptly discerned even the most unrecognizable numerical representations in the test set.
 
 ## Conclusion
 
