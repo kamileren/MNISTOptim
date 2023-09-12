@@ -103,7 +103,7 @@ Batch normalization and dropout stand out as transformative techniques in neural
 
 ## Testing the Final Model (NNP.pth) (NEW MODEL)
 
-Utilizing our optimal model, which was trained with SGD complemented by batch normalization and dropout, we achieved a remarkable accuracy of **99.18%**. This stands in stark contrast to the average accuracy attained using Adam, which was 97%. Thus, there's a substantial improvement of 2% in accuracy. Even more impressively, when juxtaposed with the average performance of SGD at 93%, we observe a significant leap of 6%. 
+Utilizing our optimal model, which was trained with SGD complemented by batch normalization and dropout, we achieved a remarkable accuracy of **99.18%**. This stands in stark contrast to the average accuracy attained using Adam, which was 97%. Thus, there's a substantial improvement of 2% in accuracy. Even more impressively, when compared with the average performance of SGD at 93%, we observe a significant leap of 6%. 
 
 
 
