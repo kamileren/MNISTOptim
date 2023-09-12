@@ -5,7 +5,7 @@ This repository contains the implementation of a simple neural network model wit
 
 ## Network Architecture
 
-The neural network begins with a fully connected layer that takes input vectors of size **28 * 28** (which is $28^2$), transforming them into an intermediate representation of 100 units. This transformation is followed by a batch normalization layer which is designed to stabilize and accelerate the learning process. This layer normalizes the output of the previous fully connected layer for the 100 units.
+The neural network begins with a fully connected layer that takes input vectors of size $28^2$, transforming them into an intermediate representation of 100 units. This transformation is followed by a batch normalization layer which is designed to stabilize and accelerate the learning process. This layer normalizes the output of the previous fully connected layer for the 100 units.
 
 Subsequent to the normalization, the ReLU (Rectified Linear Unit) activation function is applied, introducing non-linearity into the model. This non-linearity allows the network to learn more complex relationships in the data.
 
