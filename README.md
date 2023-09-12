@@ -51,6 +51,8 @@ Experiments show that Adam outperformed SGD by approximately 4% in average when 
 - Initial Choices: SGD's performance is more susceptible to initial parameter values and learning rate choices.
 - Dataset Discrepancies: Some datasets or problems inherently lean towards one optimizer.
 
+While ADAM demonstrated superior performance in the tests, it is important to note that this does not necessarily imply that SGD is an poor optimizer. Rather, it highlights ADAM's versatility in achieving good results without the need for extensive hyperparameter tuning. In theory, with meticulous hyperparameter optimization tailored for the specific dataset, SGD has the potential to excel. As evidenced in the documentation, further experimentation and fine-tuning with SGD yielded exceptional results in subsequent tests.
+
 ## Recommendations for future Tests:
 
 - Hyperparameter Mastery: Always fine-tune hyperparameters for each optimizer. Default values aren't universally optimal.
